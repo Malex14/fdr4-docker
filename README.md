@@ -9,7 +9,7 @@ sudo docker run --rm -e DISPLAY=$DISPLAY \
     -v .:/pwd \
     ghcr.io/malex14/fdr4-docker:edge
 ```
-The current directory will be mounted to `/pwd` in the container.
+The current directory will be mounted to `/pwd` in the container and the configuration (including your license) will be stored in a Docker volume named `config`.
 
 _or_
 
